@@ -1,0 +1,33 @@
+@import "./general.css";
+@import "./articlelayout.css";
+@import "./socialbutton.css";
+
+body {
+	background-color: #00ee00;
+}
+
+img {
+	max-width: 100%;
+}
+
+#authorinfopane {
+	background-color: #22ff22;
+	padding: 5px;
+	border-radius: 7px;
+	border: 1px solid black;
+}
+
+button#subscribe {
+	font-weight: bold;
+	width: 96%;
+	background-color: #009900;
+	color: white;
+}
+
+#content {
+	
+	background-color: #22ff22;
+	padding: 5px;
+	border-radius: 7px;
+	border: 1px solid black;
+}

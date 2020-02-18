@@ -1,0 +1,28 @@
+@import "./general.css";
+@import "./articlepane.css";
+@import "./homelayout.css";
+
+body {
+	background-color: #00cc00;
+}
+
+
+#navbar {
+	background-color: #00ee00;
+	padding: 2px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+.blogpreviewimage {
+	max-height: 160px;
+}
+

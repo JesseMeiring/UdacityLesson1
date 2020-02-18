@@ -1,0 +1,8 @@
+.articlepane {
+	/*background-image: url("../blue-background.jpg");*/
+	background-color: #00ee00;
+	padding: 5px 15px 5px 15px;
+	margin: 0px 0px 10px 0px;
+	border-radius: 25px;
+	border: 1px solid black;
+}

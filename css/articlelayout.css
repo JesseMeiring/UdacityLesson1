@@ -1,0 +1,51 @@
+body {
+	display: grid;
+	grid-template-rows: auto auto 1fr auto;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+		"hd"
+		"aip"
+		"body"
+		"ft";
+	grid-gap: 15px;
+}
+
+#header {
+	grid-area: hd;
+}
+
+#authorinfopane {
+	grid-area: aip;
+}
+
+#content {
+	grid-area: body;
+}
+
+#footer {
+	grid-area: ft;
+}
+
+@media (max-width: 599px) {
+	#authorinfopane {
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 4fr;
+		grid-template-areas:
+			"img other";
+		grid-gap: 5px;
+	}
+}
+
+@media (min-width: 600px) {
+	body {
+		display: grid;
+		grid-template-rows: auto auto 1fr auto;
+		grid-template-columns: 4fr 1fr;
+		grid-template-areas:
+			"hd aip"
+			"body aip"
+			"ft ft";
+		grid-gap: 25px;
+	}
+}
