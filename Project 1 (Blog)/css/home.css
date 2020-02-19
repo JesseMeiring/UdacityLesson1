@@ -1,0 +1,47 @@
+@import "./general.css";
+@import "./articlepane.css";
+@import "./homelayout.css";
+
+body {
+	background-color: #00cc00;
+}
+
+
+#navbar {
+	background-color: #00ee00;
+	padding: 2px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+.blogpreviewimage {
+	max-height: 160px;
+	max-width: 80vw;
+}
+
+@media (max-width: 320px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+	h3 {
+		font-size: 12px;
+	}
+	p {
+		font-size: 11px;
+	}
+	figcaption {
+		font-size: 11px;
+	}
+}
+

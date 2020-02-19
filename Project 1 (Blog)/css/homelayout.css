@@ -1,0 +1,99 @@
+body {
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+		"hd"
+		"body"
+		"nv"
+		"ft";
+	grid-gap: 15px;
+}
+
+#content {
+	grid-area: body;
+}
+
+footer {
+	grid-area: ft;
+}
+
+#navbar {
+	grid-area: nv;
+}
+
+header {
+	grid-area: hd;
+}
+
+#navbar {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: 25vw 25vw 25vw;
+	grid-template-areas:
+		"hd hd hd"
+		"riv mnt brk"
+		"rivc mntc brkc";
+	grid-gap: 5px;
+	
+}
+
+#navbartitle {
+	grid-area: hd;
+}
+
+#RiverImage {
+	grid-area: riv;
+}
+
+#MountinImage {
+	grid-area: mnt;
+}
+
+#BrookImage {
+	grid-area: brk;
+}
+
+.riverlink {
+	grid-area: rivc;
+}
+
+.mountainlink {
+	grid-area: mntc;
+}
+
+.brooklink {
+	grid-area: brkc;
+}
+
+.navbarimage {
+	max-height: 100%;
+	max-width: 25vw;
+}
+
+@media (min-width: 600px) {
+	body {
+		grid-template-rows: auto 1fr auto;
+		grid-template-columns: 1fr auto;
+		grid-template-areas:
+			"hd hd"
+			"body nv"
+			"ft ft";
+		grid-gap: 15px;
+	}
+	
+	#navbar {
+		width: 160px;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.navbarimage {
+	max-width: 100%;
+	}
+}
+
+@media (min-width: 900px) {
+	#navbar {
+		width: 240px;
+}

@@ -1,0 +1,18 @@
+button.social {
+	height: 30px;
+	width: 30px;
+	background-size: 30px 30px;
+	margin: 0px 3px 0px 3px;
+}
+
+button#twitter {
+	background-image: url("../assets/twitterbutton.jpg");
+}
+
+button#facebook {
+	background-image: url("../assets/facebookbutton.jpg");
+}
+
+button#linkedin {
+	background-image: url("../assets/linkedinbutton.jpg");
+}
